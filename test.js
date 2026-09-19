@@ -18,3 +18,11 @@ else if (age >= 6 && age < 24 ){
 else if ( age >= 24 ){
     console.log ("erreur");
 }
+
+
+
+
+
+
+
+
