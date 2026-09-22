@@ -6,8 +6,8 @@ const  plan ={
      y :40,
     
 }
-plan.x = 10
-plan.y = 30
+plan.x = 10;
+plan.y = 30;
 console.log("les valeurs du pointest :");
 for (let cle in plan ){
     console.log(cle ,plan[cle])
