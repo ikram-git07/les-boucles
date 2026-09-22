@@ -7,9 +7,14 @@ const étudiant ={
     notes : [16, 12, 10, 20 ],
 }
 console.log("voila tes info");
-console.log(étudiant.nom);
-console.log(étudiant.prenom);
-console.log(étudiant.notes);
-console.log(étudiant.notes[2]);
-console.log(étudiant.notes.length);
+// console.log(étudiant.nom);
+// console.log(étudiant.prenom);
+// console.log(étudiant.notes);
+// console.log(étudiant.notes[2]);
+// console.log(étudiant.notes.length);
+for(let cle in  étudiant ){
+    
+    console.log(cle,  étudiant[cle] )
+}
+    console.log("voila tes info");
 
